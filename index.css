@@ -69,6 +69,33 @@ body {
   bottom: 440px;
   left: 450px;
   -webkit-animation:movingbox 35s infinite;
+
 }
 
+.buttons img {
+  position: relative;
+  border-radius: 100%;
+  height: 45px;
+  width: 45px;
+  bottom: 430px;
+  left: 250px;
+
+}
+
+.buttons img {
+  border: 5px solid #ccc; float: left;
+  margin: 10px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out; -o-transition: margin 0.5s ease-out; }
+
+.buttons img:hover { margin-top: 8px; }
+
+.buttons ul {
+  list-style-type: none;
+
+}
+
+
+.buttons li {
+  display: inline-block;
 }
