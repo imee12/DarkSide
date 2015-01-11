@@ -1,0 +1,74 @@
+/* {
+  border: 1px dotted red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }*/
+
+body {
+  margin: 150px;
+  position: absolute;
+  height: 1200px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+
+
+
+.box {
+  width: 375px;
+  height: 190px;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
+  position: relative;
+  bottom: 350px;
+  left: 325px;
+  border-radius: 25px;
+}
+
+
+.little {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  position: relative;
+  bottom: 520px;
+  left: 440px;
+  z-index: 3;
+  border-radius: 25px;
+  background-image: url(images/profilepic.jpg);
+  background-size: cover;
+}
+
+.little:hover {
+  background-image: url(images/dogown.jpg);
+  background-size: cover;
+}
+
+.name {
+  font-family: "Parisienne";
+  font-size: 75px;
+  position: relative;
+  bottom: 330px;
+  left: 330px;
+}
+
+@-webkit-keyframes movingbox{
+    0%{left:90%;}
+    50%{left:10%;}
+    100%{left:90%;}
+  }
+
+
+
+
+.leia {
+  position: relative;
+  bottom: 440px;
+  left: 450px;
+  -webkit-animation:movingbox 35s infinite;
+}
+
+}
